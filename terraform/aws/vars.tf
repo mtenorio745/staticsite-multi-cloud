@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  default = "TNR-S3"
+  default = "tnr-s3"
 }
 
 variable "website_endpoint" {
