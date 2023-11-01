@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "Bucket-S3"
+    bucket         = "TNR-S3"
     key            = "terraform.tfstate"
-    dynamodb_table = "Tabela-do-DynamoDB"
+    dynamodb_table = "TNR-DynamoDB"
     region         = "us-east-1"
   }
 }
